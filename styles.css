@@ -221,10 +221,10 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 120vh;
+    height: 0vh;
     background-color: #141414;
     z-index:1;
-    width: 100;
+    width: 100%;
     max-width: 1300px;
     padding: 0 50px;
 }
@@ -332,12 +332,12 @@
     }
 
     .main_content h1{
-        font-size: 2.5rem;
-        margin-top: 2rem;
+        font-size: 2rem;
+        margin-top: 1.5rem;
     }
 
     .main_content h2{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .main_content p{
@@ -359,8 +359,8 @@
     }
 
     .main_content p{
-        font-size: 1.5rem;
-        margin-top: 2rem;
+        font-size: 1rem;
+        margin-top: 1.5rem;
     }
 
     .main_btn{
