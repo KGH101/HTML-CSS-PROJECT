@@ -87,7 +87,7 @@
     outline: none;
     border-radius: 4px;
     background: #f77062;
-    color: #fff;
+    color: #ffff;
 }
 
 .button:hover{
@@ -212,23 +212,22 @@
 /*Hero section*/
 
 .main{
-    background: #131313;
+    background: #141414;
 }
 
 .main_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-self: center;
+    justify-content: center;
     margin: 0 auto;
-    height: 0vh;
+    height: 120vh;
     background-color: #141414;
-    z-index:1;
-    width: 100%;
+    z-index: 1;
     max-width: 1300px;
-    padding: 0 50px;
+    width: 100%;
+    padding: 0 90px;
 }
-
 
 .main_content h1{
     font-size: 4 rem;
@@ -257,7 +256,7 @@
     font-size: 2rem;
     margin-top: 1rem;
     font-weight: 700 ;
-    color: #ffff;
+    color: #000;
    
 }
 
@@ -284,8 +283,8 @@
 }
 
 .main_btn:after {
-   position: absolute;
-   content: '';
+    position: absolute;
+    content: '';
     top: 0;
     left: 0;
     width: 0;
@@ -293,80 +292,4 @@
     background: #4837ff;
     transition: all 0.35s;
     border-radius: 4;
-}
-
-.main_btn:hover{
-    color: #fff;
-
-}
-.main_btn:hover:after{
-    width: 100%;
-}
-
-.main_img--container{
-    text-align: center;
-}
-
-#main_img{
-    height: 80%;
-    width: 80%;
-}
-
-/* Mobile Responsive*/
-
-@media screen and (max-width:768px) {
-    .main_container{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: centre;
-        justify-self: centre;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
-    }
-
-    .main_content{
-        text-align: center;
-        margin-bottom: 4rem;
-
-    }
-
-    .main_content h1{
-        font-size: 2rem;
-        margin-top: 1.5rem;
-    }
-
-    .main_content h2{
-        font-size: 2rem;
-    }
-
-    .main_content p{
-        margin-top: 1rem;
-        font-size: 1.5rem;
-    }
-    
-    
-}
-
-@media screen and (max-width: 480px){
-    .main_content h1{
-        font-size: 2rem;
-        margin-top: 3rem;
-    }
-
-    .main_content h2{
-        font-size: 2.rem;
-    }
-
-    .main_content p{
-        font-size: 1rem;
-        margin-top: 1.5rem;
-    }
-
-    .main_btn{
-        font-size: 2.5rem 0;
-        padding: 12px 36px;
-    }
-
-    
-}
+ }
