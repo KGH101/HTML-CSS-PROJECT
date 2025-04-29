@@ -221,7 +221,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    height: 120vh;
+    height: 155vh;
     background-color: #141414;
     z-index: 1;
     max-width: 1300px;
@@ -291,5 +291,116 @@
     height: 100%;
     background: #4837ff;
     transition: all 0.35s;
-    border-radius: 4;
+    border-radius: 4 px;
  }
+
+ .main_btn:hover{
+    color: #fff;
+
+}
+
+.main_btn:hover:after{
+    width: 100%;
+}
+
+.main_img--container{
+    text-align: center;
+}
+
+#main_img{
+    height: 80%;
+    width: 80%;
+}
+
+/* Mobile Responsive*/
+
+@media screen and (max-width:768px) {
+    .main_container{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: centre;
+        justify-self: centre;
+        width: 100%;
+        margin: 0 auto;
+        height: 168vh;
+        
+    }
+
+    .main_content{
+        text-align: center;
+        margin-bottom: 4rem;
+
+    }
+
+    .main_content h1{
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    .main_content h2{
+        font-size: 2rem;
+    }
+
+    .main_content p{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    
+}
+
+@media screen and (max-width: 380px){
+    .main_content h1{
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .main_content h2{
+        font-size: 2.rem;
+    }
+
+    .main_content p{
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .main_btn{
+        margin: 2.5rem 0;
+        padding: 12px 36px;
+    }
+
+
+    /* Services Section */
+
+    .services{
+        background:#141414; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+       }
+
+    .services h1{
+        font-size: 4rem;
+        background-color: #ff8177;
+        background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        margin-bottom: 5rem;
+        font-size: 2.5rem; 
+    }  
+    
+    .service_container{
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+
+    }
+
+
+
+}
+
